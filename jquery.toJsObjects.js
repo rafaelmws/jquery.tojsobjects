@@ -7,7 +7,7 @@
  *
  */
 
-$.fn.toObjects = function(properties){
+$.fn.toJsObjects = function(properties){
 	try	{
 		objects = [];
 		this.each(function(index){
